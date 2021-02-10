@@ -13,7 +13,7 @@ const App = () => {
             <Router>
                 <div className="App">
                     <Navbar></Navbar>
-                    <div className="container">
+                    <div className="container-fluid">
                         <Switch>
                             <Route exact path="/">
                                 <Home />

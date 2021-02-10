@@ -1,7 +1,10 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
+// import axios from 'axios';
+
 
 const Navbar = () => {
+
     return (
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -12,7 +15,7 @@ const Navbar = () => {
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <Link class="nav-link" to={"/"}>Home <span class="sr-only">(current)</span></Link>
                 </li>
                 <li class="nav-item">
@@ -28,4 +31,5 @@ const Navbar = () => {
         </div>
     )
 }
+
 export default Navbar
